@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MakamSyeikhAnomSidaKarsa">
+
+    <ImageView
+        android:id="@+id/MakamSyeikhAnomSidaKarsa"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/makamsyeikhanomsidakarsa2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:text="Makam Syeikh Anom Sida Karsa" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:text="Lokasi: Desa Grogolbeningsari, Kecamatan. Petanahan, Kabupaten Kebumen, Kabupaten Kebumen, Provinsi Jawa Tengah. " />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:justificationMode="inter_word"
+            android:textSize="16dp"
+            android:text="      Makam Ini Berada di Desa Grogol beningsari Petanahan Kebumen. Menurut Manuskrip Kitab Syeh Anom berusia ratusan tahun yang saat ini sedang diteliti Ali Romdhoni (Dosen Universitas Wahid Hasyim Semarang) berisi ajaran  diterima dari para wali (walisongo) di Jawa dan juga silsilah beliau.
+                                \n      Syeh Anom merupakan cucu Sunan Prawata atau Pangeran Hadi Mu’min, raja ke-4 kesultanan Demak Bintara (bertahta 1546-1547 M). Dengan demikian, Syeh Anom juga keturunan dari pendiri Demak Bintara, Raden Fatah (bertahta 1475-1518). Kesultanan Demak Bintara (1475-1554 M)
+                                \n      Sebagaimana yang disebutkan di atas, Makam Syeikh Anom Sida Karsa berada persis di sekitar makam sang guru, lebih tepatnya di Desa Grogol Bening Sari. Makam ini tidak pernah sepi pengunjung, hampir setiap hari ada saja peziarah yang sengaja datang melakukan wisata makam di Kebumen.
+                                \n      Syeikh Anom belajar banyak dari sang guru Syeikh Abdul Awal, dia memiliki banyak sekali kelebihan bahkan rumahnya pun tampak sangat unik. Konon kabarnya, dahulu ada 200 preman yang sengaja datang untuk menyatroni rumahnya.
+                                \n      Syeikh Anom yang mengetahuinya justru menjamu mereka semua, uniknya meskipun dari luar rumahnya terlihat sangat mungil ternyata di dalamnya sangat luas bahkan bisa menjamu 200 orang." />
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

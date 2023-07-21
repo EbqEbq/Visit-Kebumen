@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BukitPentulu">
+
+    <ImageView
+        android:id="@+id/pentulu"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/pentulu2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:text="Bukit Pentulu Indah" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:text="Lokasi: Desa Karangsambung, Kecamatan Karangsambung, Kabupaten Kebumen, Provinsi Jawa Tengah. " />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:justificationMode="inter_word"
+            android:textSize="16dp"
+            android:text="      Bukit Pentulu Indah merupakan surga bagi pemburu sunrise dan penikmat sensasi atas awan. Pemandangan pagi hari nampak istimewa dilihat dari atas bukit, barisan pegunungan yang hijau, pemandangan awan yang terbawa angin menyejukan pagi, menutupi deretan Daerah Kecamatan Sadang, Kabupaten Wonosobo dan Banjarnegara. Gugusan awan yang sangat luas seakan kita melihat lautan awan dibawah kita, hal ini membuat kita seolah-olah menginjakan kaki diatas awan.  Suatu moment muncul membuat kita terkejut ketika matahari muncul berpadu dengan pemandangan Gunung Sindoro-Sumbing. Selain itu suasana hutan pinus yang sejuk dan hijau di tempat tersebut membuat kenyamanan tersendiri saat kita berkunjung.
+                                \n      Berkunjung ke Bukit Pentulu Indah yang terletak di Dukuh Dakah, Desa Karangsambung ini sangat dimudahkan aksesnya. Untuk mendapatkan pemandangan yang istimewa itu, kita tidak perlu berjalan atau mendaki berjam-jam karena ketinggiannya hanya 200 Mdpl, bisa ditempuh hanya 10 menit dari arel parkir wisata. Akses jalan dari Kota Kebumen berjarak kisaran 20 Km, bisa di tempuh dengan waktu 30 menit, dengan kondisi jalan yang sangat bagus. Pemandangan yang istimewa didukung akses yang mudah serta di lengkapi sarana dan prasarana penunjang pariwisata yang bagus membuat tempat ini menjadi primadona bagi wisatawan lokal dan mancanegara.
+                                \n      Bukit Pentulu Indah juga dilengkapi dengan Spot-Spot berfoto yang bagus, Gazebo, Hammock, Rumah Hobbit dan Panggung Hiburan. Hal ini membuat para wisatawan betah dan menghabiskan banyak waktu disana." />
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

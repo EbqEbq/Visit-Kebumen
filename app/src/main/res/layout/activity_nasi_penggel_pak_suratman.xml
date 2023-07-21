@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NasiPenggelPakSuratman">
+
+    <ImageView
+        android:id="@+id/NasiPenggelPakSuratman"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/nasipenggelpaksuratman2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:text="Nasi Penggel Pak Suratman" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:text="Lokasi: Jl. Gn. Sari Raya, Dukuh Karangwungu, Desa Karangpoh, Kecamatan Pejagoan, Kabupaten Kebumen, Kabupaten Kebumen, Provinsi Jawa Tengah. " />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:justificationMode="inter_word"
+            android:textSize="16dp"
+            android:text="      Proses pembuatannya adalah dengan mengepal nasi dan dibentuk hingga menjadi bulatan kecil. Kemudian nasi disajikan dengan daun pisang. Teknik mengepal inilah yang disebut dengan penggel.
+                                \n      Nasi Penggel biasanya paling sering disajikan dengan kikil sapi. Kikil tersebut yang dimasak dengan bumbu kuning mirip dengan masakan Padang. Kikil dimasak dengan waktu yang cukup lama. Jadi pasti empuk.
+                                \n      Sayur nangka muda yang diolah dengan santan dan dicampur daun singkong. Resto Pak Suratman ini ada di tengah kota tepatnya di Pejagoan. Jadi tidak sulit untuk menemukannya." />
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

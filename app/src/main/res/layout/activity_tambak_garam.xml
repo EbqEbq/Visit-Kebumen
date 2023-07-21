@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TambakGaram">
+
+    <ImageView
+        android:id="@+id/TambakGaram"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/garam2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:text="Tambak Garam" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:text="Lokasi: Desa Miritpetikusan, Kecamatan Mirit, Kabupaten Kebumen, Kabupaten Kebumen, Provinsi Jawa Tengah. " />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:justificationMode="inter_word"
+            android:textSize="16dp"
+            android:text="      Desa Miritpetikusan mempunyai tambak garam organik milik kelompok Kugar Jagad Kidul, tambak garam ini terletak disisi selatan Jalan Lintas Selatan - Selatan, tepatnya Jln arah pantai sebelum Pagar TNI belok kiri kurang lebih 50 meter. tambak garam ini dijadikan sebagai Wisata Edukasi untuk anak - anak sekolah TK,SD, SMP dan SMA.
+                                \n      Menurut Ketua Kugar Jagad Kidul Bapak Puji Santoso, sebenarnya usaha tambak garam ini sudah berjalan selama 1 tahun, akan tetapi lokasi semula berada ditepi pantai, di lokasi lama tambak garam ini banyak mengalami kendala diantaranya ada nya gelombang pasang yang memicu abrasi pantai yang melenyapkan 4 Tunnel Garam, sehingga produksi sempat terhenti.
+                                \n      Untuk wisata edukasi ini Kelompok tidak memungut biaya, akan tetapi setiap anak diwajibkan membeli produk garam yang sudah dikemas seharga Rp 5.000,- . Para Siswa nantinya akan dijelaskan proses pembuatan garam dengan sistem Tunnel ini oleh Anggota Kelompok ataupun Oleh Ketua Kelompok sendiri.
+                                \n      Berbagai aktivitas wisata bisa kamu lakukan di sini, banyak peninggalan kolonial dan permainan di sekitar wilayah benteng apalagi wisata edukasi tentang sejarah penjajahan. Untuk masuk kamu hanya perlu membayar uang tiket sebesar Rp. 25.000. Buka setiap hari mulai dari Pk. 08.00 sampai dengan Pk. 17.00 WIB." />
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

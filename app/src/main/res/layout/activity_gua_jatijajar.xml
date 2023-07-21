@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GuaJatijajar">
+
+    <ImageView
+        android:id="@+id/jatijajar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/jatijajar2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:text="Goa Jatijajar" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:text="Lokasi: Desa Jatijajar, Kecamatan Ayah, Kabupaten Kebumen, Provinsi Jawa Tengah. " />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:justificationMode="inter_word"
+            android:textSize="16dp"
+            android:text="      Gua Jatijajar adalah sebuah situs geologi yang terbentuk dari proses alamiah, yang terletak di Kabupaten Kebumen, Jawa Tengah. Gua yang keseluruhannya terbentuk dari kapur, ini memiliki panjang 250 meter, dari pintu masuk sampai keluar dengan.lebar rata-rata 15 meter, dan tinggi rata-rata 12 meter.
+                          \n    Gua Jatijajar ini memiliki panjang dari pintu masuk utama ke pintu keluar adalah sepanjang 250 meter dengan lebar goa rata-rata 15 meter dan tinggi rata-rata di dalam goa ini adalah 12 meter. Sedangkan untuk ketebalan pada langit-langitnya rata-rata memiliki ketenalan 10 meter, dan ketinggian dari permukaan laut adalah 50 meter. Awal mulanya Goa Jatijajar ini ditemukan oleh seorang petani bernama “Jayamenawi” yang suatu ketika saat mengambil rumput dan kemudian jatuh di dalam lobang yang ternyata usut punya usut lobang itu adalah ventilasi yang ada pada langit-langit goa.
+                          \n    Pada awalnya seluruh goa ini tertutup tanah, dan setelah dilakukan pembersihan dan pembuangan tanah maka barulah ketemu pintu goa yang sekarang menjadi pintu masuk kedalam goa ini. Menyusuri kawasan wisata alam Goa Jatijajar ini kita akan mendapatkan sebuah patung yang menyerupai dinosaurus yang menjadi ikon Goa Jatijajar. Dari mulut patung Anda dapat melihat air yang mengalir dari beberapa sendang yang berasal dari sendang dari dalam goa. Gua Jatijajar, benar-benar menawarkan keindahan yang tak terbatas.
+                          \n    Di dalamnya anda akan melihat lampu-lampu bersinar terang dari ujung ke ujung. Bebatuan stalagtit, juga pilar atau tiang kapur menambah keindahan Gua dengan airnya yang masih mengalir dan menetes pada ujung-ujungnya. Sinar matahari pun tak kalah indahnya, menerobos masuk kedalam gua dan memberikan kesan indah tersendiri. Patung-patung berwarna putih berukuran manusia benar-benar sempurna untuk mempcantik isi Gua.
+                          \n    Keindahan tak berhenti sampai disitu. Sampai anda menuruni tangga yang berada pada ekor Gua tersebut. Anda akan tahu, bahwa Gua ini memiliki beberapa sumber mata air yang disebut juga dengan Sendang. Jumlah Sendang yang ada sebanyak 4 buah. Sendang Mawar adalah salah satu Sendang selain Sendang Puser Bumi, Sendang Jombor, dan Sendang Kantil, yang kerap kali dipercayai mempunyai kekuatan gaib yang bisa membuat seseorang tetap awet muda dengan cara membasuhkan muka anda dengan air tersebut." />
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

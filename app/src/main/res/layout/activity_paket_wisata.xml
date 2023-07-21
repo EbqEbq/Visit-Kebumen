@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaketWisata">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+        </RelativeLayout>
+
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="5dp"
+            android:rowCount="3"
+            >
+
+            <!-- Row 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="#B0CCC9C8"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="350dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/paketwisatasatu" />
+
+                    <TextView
+                        android:id="@+id/paketsatu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Paket Wisata 1"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:background="#00BCD4"
+                        android:shadowColor="#000000"
+                        android:shadowRadius="2"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:clickable="true"
+                        />
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/hari"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:text="1 Hari 2 Destinasi :-->
+<!--                        \n      * Pantai Menganti-->
+<!--                        \n      * Pitris Ocean View-->
+<!--                        \nFasilitas:-->
+<!--                        \n      * Transportasi (Driver dan BBM)-->
+<!--                        \n      * Tiket obyek wisata-->
+<!--                        \n      * Air mineral selama tour-->
+<!--                        \n      * Biaya operasional tour (parkir,dll)"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:clickable="true"-->
+<!--                        />-->
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Row 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="#B0CCC9C8"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="350dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/paketwisatadua" />
+
+                    <TextView
+                        android:id="@+id/paketdua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Paket Wisata 2"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:background="#00BCD4"
+                        android:shadowColor="#000000"
+                        android:shadowRadius="2"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:clickable="true"
+                        />
+
+                    <!--                    <TextView-->
+                    <!--                        android:id="@+id/hari"-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="match_parent"-->
+                    <!--                        android:layout_marginTop="5dp"-->
+                    <!--                        android:text="1 Hari 2 Destinasi :-->
+                    <!--                        \n      * Pantai Menganti-->
+                    <!--                        \n      * Pitris Ocean View-->
+                    <!--                        \nFasilitas:-->
+                    <!--                        \n      * Transportasi (Driver dan BBM)-->
+                    <!--                        \n      * Tiket obyek wisata-->
+                    <!--                        \n      * Air mineral selama tour-->
+                    <!--                        \n      * Biaya operasional tour (parkir,dll)"-->
+                    <!--                        android:textStyle="bold"-->
+                    <!--                        android:textSize="17sp"-->
+                    <!--                        android:clickable="true"-->
+                    <!--                        />-->
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

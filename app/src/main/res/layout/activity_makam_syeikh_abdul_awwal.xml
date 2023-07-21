@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MakamSyeikhAbdulAwwal">
+
+    <ImageView
+        android:id="@+id/MakamSyeikhAbdulAwwal"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/makam2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:text="Makam Syeikh Abdul Awwal" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:text="Lokasi: Dukuh Kedunggamba, Desa Kebonsari, Kecamatan. Petanahan, Kabupaten Kebumen, Kabupaten Kebumen, Provinsi Jawa Tengah. " />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:justificationMode="inter_word"
+            android:textSize="16dp"
+            android:text="      Sebagai salah satu kawasan wisata religi terpopuler di Kebumen, menemukan makam ini tidak sulit cukup pergi ke Desa Kebon Sari. Berjarak 15 km dari desa tersebut, selain menemukan Makam Syeikh Anom Sidakarasa kita juga bisa menemukan makam dari sang guru yakni Makam Syeikh Abdul Awwal.
+                                \n      Syeikh Abdul Awwal semasa hidupnya juga dikenal dengan nama Mangkurat Mas yang merupakan anak sulung dari Raden Pemanahan yang menguasai Keraton Yogyakarta. Karena perebutan kekuasaan yang dilakukan oleh adik Raden Pemanahan, pada akhirnya Mangkurat Mas sebagai ahli waris memutuskan untuk keluar dari keraton.
+                                \n      Perjalanan Syeikh Abdul Awwal mengajarkan ajaran Islam di Kebumen di mulai ketika dia menyelesaikan studi dari pesantren. Lalu mempersunting Jonggrang yang merupakan putri Keraton Solo." />
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

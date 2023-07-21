@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BentengVanDerWijck">
+
+    <ImageView
+        android:id="@+id/BentengVanDerWijck"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/benteng2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:text="Benteng Van Der Wijck" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:text="Lokasi: Desa Sidayu, Kecamatan Gombong, Kabupaten Kebumen, Kabupaten Kebumen, Provinsi Jawa Tengah. " />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:justificationMode="inter_word"
+            android:textSize="16dp"
+            android:text="      Merupakan benteng pertahanan Hindia Belanda, Benteng Van Der Wijck ini adalah salah satu benteng bersejarah. Berlokasi di Gombong yang kurang lebih 20 Km sebelah barat dari ibukota Kabupaten Kebumen. Benteng Van Der Wijck pernah menjadi lokasi shooting film The Raid 2, dan film karya Garin Nugroho teranyar. Benteng ini memiliki dua lantai dengan jumlah kamar lebih dari 32 kamar. Nama Van Der Wijck diambil dari nama salah satu Gubernur Jenderal Hindia Belanda Carel Herman Aart Van der Wijck yang bertugas di Jawa tahun 1893-1899.
+                                \n      Benteng Van Der Wijck diperkirakan dibangun pada tahun 1827 oleh arsitek Islam. Berbentuk segi delapan, mirip seperti Masjidil Haram, kalau kita lihat kompas Islam kita akan dapati bahwa pintu benteng tepat menghadap ke arah kiblat.
+                                \n      Benteng 2 lantai dengan luas 7.168 meter ini memiliki tinggi sampai 10 meter dan tebal 1,4 meter, Pernah dianggap sebagai tempat berhantu namun Seorang general manager PT Indopower Herwin Kunadi perna bercerita bahwa ia dan ayahnya menyulap benteng itu menjadi tempat wisata bersejarah yang menyenangkan dan tentunya nyaman.
+                                \n      Berbagai aktivitas wisata bisa kamu lakukan di sini, banyak peninggalan kolonial dan permainan di sekitar wilayah benteng apalagi wisata edukasi tentang sejarah penjajahan. Untuk masuk kamu hanya perlu membayar uang tiket sebesar Rp. 25.000. Buka setiap hari mulai dari Pk. 08.00 sampai dengan Pk. 17.00 WIB." />
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PantaiMenganti">
+
+    <ImageView
+        android:id="@+id/menganti"
+        android:layout_width="wrap_content"
+        android:layout_height="269dp"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/menganti2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:text="Pantai Menganti" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:text="Lokasi: Desa Karangduwur, Kecamatan Ayah, Kabupaten Kebumen, Provinsi Jawa Tengah. " />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:justificationMode="inter_word"
+            android:textSize="16dp"
+            android:text="      Berasal dari kata menanti, Pantai Menganti menjadi pantai di Kebumen yang bisa disebut sebagai salah satu pantai paling apik dan paling populer yang ada di Provinsi Jawa Tengah. Warna biru laut yang berpadu dengan hijau bukit memang membuat pantai ini tampak begitu memesona. Pantai berpasir putih ini terletak sekitar 30 kilometer dari Kecamatan Gombong. Kamu harus menempuh perjalanan sekitar 1 jam untuk sampai di sini. Selanjutnya, kamu masih harus menaklukan beberapa anak tangga hingga akhirnya bisa melihat langsung indahnya pantai. Letak Pantai Menganti sedikit lebih menjorok ke arah laut, sehingga kamu bisa melihat pantai yang terletak di Uluwatu dan Nusa Penida. Tak hanya itu, pada bagian tanjung, banyak bebatuan berserakan. Bagian timur pantai ini berupa Tanjung Karabata. Sementara sisi baratnya dipenuhi perahu nelayan yang bersandar. Inilah mengapa sekitar kawasan pantai terdapat rumah makan dengan sajian menu seafoodnya yang sangat beragam." />
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SateAmbalPakKasman">
+
+    <ImageView
+        android:id="@+id/SateAmbalPakKasman"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/sateambalpakkasman2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:text="Sate Ambal Pak Kasman" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:text="Lokasi: jL. Daendels, Dukuh Ambalresmi, Desa Ambal, Kecamatan Ambal, Kabupaten Kebumen, Kabupaten Kebumen, Provinsi Jawa Tengah. " />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:justificationMode="inter_word"
+            android:textSize="16dp"
+            android:text="      Belum ke Kebumen jika tidak mencicipi makanan yang satu ini. Makanan yang berbahan dasar daging ayam ini sudah tidak perlu ditanya lagi rasanya. Makanan itu adalah sate ambal. Bagi banyak orang sate terenak adalah sate Madura. Itu salah karena sate ambal tak kalah nikmatnya.
+                                \n      Cukup dengan membayar sebesar 10 sampai 15 ribu, sate ambal sudah dapat disantap. Sate Ambal adalah sate legenda Kebumen, yang dibuat dari ayam yang dimasak dahulu sebelum sebelum dibakar. Sehingga tercipta rasa yang gurih dan lembut, walaupun belum dibakar sekalipun.
+                                \n      Dalam penyajian, sate ambal disajikan secara terpisah dengan bumbunya. Bumbu sate berupa sambal tempe yang dicampur dengan rempah-rempah pilihan seperti jahe. Biasanya dimakan dengan potongan ketupat atau lontong yang disesuaikan dengan selera pembeli.
+                                \n      Menu sate ini bisa dijumpai di yang melegenda dari desa Ambalresmi. Sesuai dengan namanya. Daerah asal sate yang berlokasi di sekitar pesisir pantai selatan." />
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

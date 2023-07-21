@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HutanMangrove">
+
+    <ImageView
+        android:id="@+id/HutanMangrove"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/mangrove2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:text="Hutan Mangrove" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:text="Lokasi: Desa Ayah, Kecamatan Ayah, Kabupaten Kebumen, Kabupaten Kebumen, Provinsi Jawa Tengah. " />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:justificationMode="inter_word"
+            android:textSize="16dp"
+            android:text="      Hutan Mangrove Kebumen atau terkenal juga dengan nama Hutan Magrove Ayah merupakan kawasan konservasi dan mitigasi bencana alam. Kawasan hutan bakau ini terletak di Pantai Logending. Terdapat beragam jenis bakau yang ditanam di sini, seperti Bakau Tulen atau Bakau Minyak. Selain itu, ada juga Bakau Bakau Apel, Api-Api, Merah, Jeruju, Nipah, Tancang, dan Paku Laut.
+                                \n      Tanaman bakau yang ada di sini tumbuh di tempat yang alami, rimbun, dan tertata rapi. Banyak burung bangau putih yang hinggap di atasnya sehingga terlihat seperti bunga melati dari kejauhan. Selain menjadi kawasan wisata, hutan bakau juga berguna untuk menahan abrasi dan ombak saat tsunami. Pengunjung bisa berkeliling area wisata ini dengan menggunakan perahu nelayan atau jembatan kayu yang tersedia." />
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

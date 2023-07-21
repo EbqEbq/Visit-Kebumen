@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MakamSyeikhBaribinGrenggeng">
+
+    <ImageView
+        android:id="@+id/MakamSyeikhBaribinGrenggeng"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingTop="5dp"
+        app:srcCompat="@drawable/makamsyeikhbaribingrenggeng2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:text="Makam Syeikh Baribin Grenggeng" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:text="Lokasi: Desa Grenggeng, Kecamatan Karanganyar, Kabupaten Kebumen, Kabupaten Kebumen, Provinsi Jawa Tengah. " />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:justificationMode="inter_word"
+            android:textSize="16dp"
+            android:text="      Syaikh Baribin atau Raden Saputra/ Raden Putra/ Harya Baribin adalah putra dari Prabu Brawijaya IV (Bra Tanjung) dengan isteri Putri Pajang. Dikarenakan tidak diperbolehkan adanya tahta kembar (setelah wafatnya Brawijaya IV/ Bra Tanjung), Raden Putra yang merupakan adik dari Raden Alit /Angkawijaya /Brawijaya V akhirnya meninggalkan kerajaan Majapahit dengan ikhlas. Raden Putra pun pergi ke arah barat untuk menjalani takdir besarnya. Dalam pengembaraannya, beliau sempat singgah di beberapa tempat di wilayah Kebumen, sampai akhirnya beliau pergi ke Pajajaran. Di Pajajaran, beliau kemudian menikah dengan salah satu cucu Raja Pajajaran dan dianugerahi empat orang anak.
+                                \n      Singkat cerita, dari Pajajaran Raden Putra kemudian kembali ke timur dan menghabiskan masa hidupnya di Gunung Grenggeng yang hingga kini dikenal oleh masyarakat setempat sebagai Syaikh Baribin. Menurut penuturan masyarakat setempat, beliau adalah tokoh yang awal mengembangkan agama Islam di sekitar Gombong, Karanganyar dan Sempor pada ratusan tahun yang lalu. Konon dahulu semasa hidupnya, Eyang Syaikh Baribin dikenal sebagai orang sakti yang berjuang membela kebenaran dan menentang kejahatan, serta menolong orang yang kesusahan." />
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>
